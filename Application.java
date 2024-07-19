@@ -1,3 +1,4 @@
+
 public class CreateWebSource
 {
   public static void main(String[] args) throws Exception
@@ -10,3 +11,14 @@ public class CreateWebSource
       {
         System.out.println(
           "Usage:\n  CreateWebSource <webServiceURL> <userName> <password> <webSourceURL>"
+
+#feature201 changed by sathvi
+adminPort.createAll(
+          "source",
+          webSourceXML,
+          "password",
+          credentials,
+          null,
+          null,
+          "en" 
+        );#end feature201 
