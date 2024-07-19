@@ -1,3 +1,4 @@
+
 public class CreateWebSource
 {
   public static void main(String[] args) throws Exception
@@ -21,3 +22,13 @@ public class CreateWebSource
           null,
           "en"
         );
+#feature201 changed by sathvi
+adminPort.createAll(
+          "source",
+          webSourceXML,
+          "password",
+          credentials,
+          null,
+          null,
+          "en" 
+        );#end feature201 
